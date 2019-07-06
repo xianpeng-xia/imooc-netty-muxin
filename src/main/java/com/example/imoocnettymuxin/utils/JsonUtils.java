@@ -10,7 +10,7 @@ import javax.jws.Oneway;
  * Created by xianpeng.xia
  * on 2019-07-06 20:31
  */
-public class JsonUtil {
+public class JsonUtils {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
@@ -27,7 +27,7 @@ public class JsonUtil {
     public static <T> List<T> jsonToPojo(String jsonData, Class<T> beanType) {
         JavaType javaType = MAPPER.getTypeFactory().constructParametricType(List.class, beanType);
         try {
-            List<T> list = MAPPER.readValue(jsonData,javaType);
+            List<T> list = MAPPER.readValue(jsonData, javaType);
             return list;
         } catch (Exception e) {
             e.printStackTrace();
