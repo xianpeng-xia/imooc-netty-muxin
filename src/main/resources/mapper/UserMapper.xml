@@ -5,13 +5,13 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <result column="id" jdbcType="VARCHAR" property="id" />
-    <result column="username" jdbcType="VARCHAR" property="username" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="face_image" jdbcType="VARCHAR" property="faceImage" />
-    <result column="face_image_big" jdbcType="VARCHAR" property="faceImageBig" />
-    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
-    <result column="qrcode" jdbcType="VARCHAR" property="qrcode" />
-    <result column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="id" jdbcType="VARCHAR" property="id"/>
+    <result column="username" jdbcType="VARCHAR" property="username"/>
+    <result column="password" jdbcType="VARCHAR" property="password"/>
+    <result column="face_image" jdbcType="VARCHAR" property="faceImage"/>
+    <result column="face_image_big" jdbcType="VARCHAR" property="faceImageBig"/>
+    <result column="nickname" jdbcType="VARCHAR" property="nickname"/>
+    <result column="qrcode" jdbcType="VARCHAR" property="qrcode"/>
+    <result column="cid" jdbcType="INTEGER" property="cid"/>
   </resultMap>
 </mapper>

@@ -3,6 +3,7 @@ package com.example.imoocnettymuxin.pojo;
 import javax.persistence.*;
 
 public class User {
+
     @Id
     private String id;
 
@@ -45,7 +46,7 @@ public class User {
     }
 
     /**
-     * @param id
+     *
      */
     public void setId(String id) {
         this.id = id;
@@ -113,7 +114,7 @@ public class User {
     }
 
     /**
-     * @param faceImageBig
+     *
      */
     public void setFaceImageBig(String faceImageBig) {
         this.faceImageBig = faceImageBig;
@@ -163,7 +164,7 @@ public class User {
     }
 
     /**
-     * @param cid
+     *
      */
     public void setCid(String cid) {
         this.cid = cid;

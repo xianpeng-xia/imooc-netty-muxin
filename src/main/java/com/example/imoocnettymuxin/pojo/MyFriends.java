@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Table(name = "my_friends")
 public class MyFriends {
+
     @Id
     private String id;
 
@@ -21,7 +22,7 @@ public class MyFriends {
     }
 
     /**
-     * @param id
+     *
      */
     public void setId(String id) {
         this.id = id;
@@ -35,7 +36,7 @@ public class MyFriends {
     }
 
     /**
-     * @param myUserId
+     *
      */
     public void setMyUserId(String myUserId) {
         this.myUserId = myUserId;
@@ -49,7 +50,7 @@ public class MyFriends {
     }
 
     /**
-     * @param myFriendUserId
+     *
      */
     public void setMyFriendUserId(String myFriendUserId) {
         this.myFriendUserId = myFriendUserId;

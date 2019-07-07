@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 @Table(name = "chat_msg")
 public class ChatMsg {
+
     @Id
     private String id;
 
@@ -30,7 +31,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param id
+     *
      */
     public void setId(String id) {
         this.id = id;
@@ -44,7 +45,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param sendUserId
+     *
      */
     public void setSendUserId(String sendUserId) {
         this.sendUserId = sendUserId;
@@ -58,7 +59,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param acceptUserId
+     *
      */
     public void setAcceptUserId(String acceptUserId) {
         this.acceptUserId = acceptUserId;
@@ -72,7 +73,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param msg
+     *
      */
     public void setMsg(String msg) {
         this.msg = msg;
@@ -86,7 +87,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param signFlag
+     *
      */
     public void setSignFlag(Integer signFlag) {
         this.signFlag = signFlag;
@@ -100,7 +101,7 @@ public class ChatMsg {
     }
 
     /**
-     * @param createTime
+     *
      */
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;

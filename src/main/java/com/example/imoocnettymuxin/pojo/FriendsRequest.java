@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 @Table(name = "friends_request")
 public class FriendsRequest {
+
     @Id
     private String id;
 
@@ -25,7 +26,7 @@ public class FriendsRequest {
     }
 
     /**
-     * @param id
+     *
      */
     public void setId(String id) {
         this.id = id;
@@ -39,7 +40,7 @@ public class FriendsRequest {
     }
 
     /**
-     * @param sendUserId
+     *
      */
     public void setSendUserId(String sendUserId) {
         this.sendUserId = sendUserId;
@@ -53,7 +54,7 @@ public class FriendsRequest {
     }
 
     /**
-     * @param acceptUserId
+     *
      */
     public void setAcceptUserId(String acceptUserId) {
         this.acceptUserId = acceptUserId;
@@ -67,7 +68,7 @@ public class FriendsRequest {
     }
 
     /**
-     * @param requestDateTime
+     *
      */
     public void setRequestDateTime(Date requestDateTime) {
         this.requestDateTime = requestDateTime;

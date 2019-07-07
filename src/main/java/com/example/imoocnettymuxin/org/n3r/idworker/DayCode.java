@@ -1,8 +1,10 @@
 package com.example.imoocnettymuxin.org.n3r.idworker;
 
-import org.n3r.idworker.strategy.DayPrefixRandomCodeStrategy;
+
+import com.example.imoocnettymuxin.org.n3r.strategy.DayPrefixRandomCodeStrategy;
 
 public class DayCode {
+
     static RandomCodeStrategy strategy;
 
     static {

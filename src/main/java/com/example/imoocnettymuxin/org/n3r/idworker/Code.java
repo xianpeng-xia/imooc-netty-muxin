@@ -1,8 +1,10 @@
 package com.example.imoocnettymuxin.org.n3r.idworker;
 
-import org.n3r.idworker.strategy.DefaultRandomCodeStrategy;
+
+import com.example.imoocnettymuxin.org.n3r.strategy.DefaultRandomCodeStrategy;
 
 public class Code {
+
     private static RandomCodeStrategy strategy;
 
     static {
@@ -12,8 +14,12 @@ public class Code {
     }
 
     public static synchronized void configure(RandomCodeStrategy custom) {
-        if (strategy == custom) return;
-        if (strategy != null) strategy.release();
+        if (strategy == custom) {
+            return;
+        }
+        if (strategy != null) {
+            strategy.release();
+        }
 
         strategy = custom;
     }
