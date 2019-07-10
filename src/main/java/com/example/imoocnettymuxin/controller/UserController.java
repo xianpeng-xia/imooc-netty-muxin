@@ -53,4 +53,12 @@ public class UserController {
         BeanUtils.copyProperties(userResult, userVO);
         return IMoocJSONResult.ok(userVO);
     }
+
+    @PostMapping("/search")
+    public IMoocJSONResult searchUser(String myUserId, String friendUsername) throws NoSuchAlgorithmException {
+        if (StringUtils.isBlank(myUserId) || StringUtils.isBlank(friendUsername)) {
+            return IMoocJSONResult.errorMsg("myUserId or friendUsername is null");
+        }
+        return null;
+    }
 }
